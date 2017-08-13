@@ -15,12 +15,10 @@ compile ‘io.reactivex:rxandroid:0.24.0'
 ## project structure
 The MainActivity will have buttons to launch each of the sub-projects
 
-##
-Observable.OnSubscribe
+## Observable.OnSubscribe
 Used to create an observable. With it we define what is sent with onNext, onCompleted, onError
 Pass it to Observable.create() to create an observable.
 
-##
-Subscriber<String> textViewSubscriber and Subscriber<String> toastSubscriber
+## Subscriber<String> textViewSubscriber and Subscriber<String> toastSubscriber
 Performs a UI action when onNext is received.
 Call observable.subscribe to trigger onNext event(s)
