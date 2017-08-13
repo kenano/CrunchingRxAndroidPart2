@@ -2,4 +2,5 @@
     <string name="app_name">RxDemo02</string>
 
     <string name="title_activity_part1">Part1Activity</string>
+    <string name="title_activity_part2">Part2Activity</string>
 </resources>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.kenano.android.rxdemo02.part1.Part1Activity;
+import com.kenano.android.rxdemo02.part2.Part2Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initUI() {
         initTapListener(R.id.btnPart1);
+        initTapListener(R.id.btnPart2);
     }
 
     private void initTapListener(int viewId) {
@@ -35,6 +37,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (viewId){
             case R.id.btnPart1:
                 launchIntent = new Intent(this, Part1Activity.class);
+                break;
+            case R.id.btnPart2:
+                launchIntent = new Intent(this, Part2Activity.class);
                 break;
         }
 
